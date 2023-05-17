@@ -10,7 +10,7 @@ public:
 		this->judul = judul;
 		return *this; //chain function
 	}
-	string getjdul()
+	string getJudul()
 	{
 		return this->judul;
 	}
@@ -19,5 +19,8 @@ public:
 
 int main()
 {
-
+	// bukunya.setjudul("matematika");
+	// cout << bukunya.getJudul();
+	cout << bukunya.setJudul("matematika").getJudul(); //chain function calls
+	return 0;
 }
