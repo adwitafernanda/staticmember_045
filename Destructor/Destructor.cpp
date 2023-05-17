@@ -44,4 +44,4 @@ int main() {
 	delete ptrBelajarcpp; //desstructor dipanggil
 
 	return 0;
-}   //destructor dipanggil 
+}   //destructor dipanggil  
