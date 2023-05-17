@@ -23,4 +23,4 @@ int main()
 	// cout << bukunya.getJudul();
 	cout << bukunya.setJudul("matematika").getJudul(); //chain function calls
 	return 0;
-}
+} 
